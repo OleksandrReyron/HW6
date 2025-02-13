@@ -21,8 +21,8 @@ public class Main {
         //Задача 2: Клас "Геометричні фігури"
         Circle circle = new Circle(10);
         circle.circleArea();
-        circle.circleDiam();
+        circle.circleLength();
         System.out.println("Площа кола: "+ circle.area);
-        System.out.println("Діаметр кола: "+ circle.diam);
+        System.out.println("Довжина кола: "+ circle.length);
     }
 }
